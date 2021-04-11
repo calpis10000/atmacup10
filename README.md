@@ -1,21 +1,22 @@
 # atmaCup10 [Public 9th / Private 3rd]
 
 ## このリポジトリについて
-- atmaCup10(https://www.guruguru.science/competitions/16) の最終sub再現コードです。
-- 解法はこちら: 
-  - https://www.guruguru.science/competitions/16/discussions/b14d0693-fe4b-4ba8-9e67-533f84dd87ad/
-  - https://speakerdeck.com/calpis10000/atmacup-number-10-zhen-rifan-rihui-3rd-place-solution
+- [atmaCup10](https://www.guruguru.science/competitions/16) 最終subの再現コードです。
+- 順位: Public 9th / Private 3rd
+- 解法の詳細はこちら↓ 
+  - [ディスカッション(@ぐるぐる)](https://www.guruguru.science/competitions/16/discussions/b14d0693-fe4b-4ba8-9e67-533f84dd87ad/)
+  - [振り返り会資料(@Speaker Deck)](https://speakerdeck.com/calpis10000/atmacup-number-10-zhen-rifan-rihui-3rd-place-solution)
 
 ## 環境構築
 ```
 1. 適当なディレクトリにclone
 2. clone後のフォルダ直下にて、`poetry install`を実行
-    - poetry未導入の場合: こちらを参考に導入する→ https://python-poetry.org/docs/
-    - または、pyproject.tomlの[tool.poetry.dependencies]を参考にライブラリをインストール
+    - poetry未導入の場合: ドキュメント(https://python-poetry.org/docs/)を参考に導入をお願いします。
+    - poetry入れたくない場合は、pyproject.tomlの[tool.poetry.dependencies]を参考にライブラリのインストールをお願いします。
 3. `00_input`フォルダに`atmacup10_dataset.zip`の中身を配置
-    - `../00_input/atmacup10_dataset/train.csv`のような配置になる。
+    - `../00_input/atmacup10_dataset/train.csv`のような配置になります。
 4. `99_bin`フォルダにfasttextのモデルを配置
-    - ↓から`lid.176.bin`をダウンロード
+    - ↓から`lid.176.bin`をダウンロードして配置します。
     - https://fasttext.cc/docs/en/language-identification.html
 ```
 
